@@ -1,0 +1,94 @@
+body {
+    background: url(../img/king.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width: 620px) {
+    body {
+        width: auto;
+    }
+    .fox img {
+        display: none;
+    }
+    .foxsoul h1 {
+        margin-right: 5%;
+    }
+    .bouton ul {
+        margin-top: 80%;
+    }
+    .foxsoul {
+        display: none;
+    }
+}
+
+.foxsoul {
+    text-align: center;
+    background-color: #e67e22;
+    width: 150px;
+    margin-left: 64%;
+    margin-top: 9%;
+    height: 45px;
+    padding: -10%;
+    border: white 3px solid;
+    border-radius: 10%;
+}
+
+.foxsoul h1 {
+    margin-top: 1%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.fox img {
+    position: absolute;
+    width: 30%;
+    margin-top: -5%;
+    margin-left: 15%;
+}
+
+.bouton {
+    display: block;
+    float: right;
+    margin-right: 26.5%;
+    text-align: center;
+}
+
+.btn-menu {
+    position: relative;
+    background-color: #e67e22;
+    border: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    border: white 3px solid;
+    width: 130px;
+    text-align: center;
+    margin: 10%;
+    border-radius: 6%;
+}
+
+.btn-menu a {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+
+.bouton ul {
+    list-style: none;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+
+audio {
+    opacity: -100%;
+}
